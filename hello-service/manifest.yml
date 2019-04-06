@@ -4,4 +4,4 @@ applications:
   memory: 1G
   instances: 1
   buildpack: java_buildpack
-  path: build/libs/hello-service.jar
+  path: target/hello-service-0.0.1-SNAPSHOT.jar
