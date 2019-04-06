@@ -1,0 +1,7 @@
+---
+applications:
+- name: hello-service
+  memory: 1G
+  instances: 1
+  buildpack: java_buildpack
+  path: build/libs/hello-service.jar
